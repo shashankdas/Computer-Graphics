@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.Container h1 {
+  color: blue;
+}
+
+.Container p {
+  color: red;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+.social-icon {
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background-color: var(--white);
+  box-shadow: var(--shadow);
+}
+
+.github path {
+  fill: black;
+}
+
+.social-icon svg {
+  height: 32px;
+  width: 32px;
+}
